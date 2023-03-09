@@ -1,0 +1,101 @@
+.sudoku{
+    .board {
+        width: 720px;
+        text-align: center;
+        margin: 50px auto 0px;
+    }
+
+    .timer {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 1000;
+    }
+
+    .cellall {
+        margin: 20px auto 0px;
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        float: left;
+        line-height: 80px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(92, 92, 92);
+        box-sizing: border-box;
+        border: 1px solid rgb(8, 8, 8);
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .checkright {
+        background: rgb(160, 234, 160);
+    }
+
+    .checkwrong {
+        background: rgb(255, 170, 170);
+    }
+
+    .initial {
+        background-color: rgb(227, 226, 226);
+        cursor: default;
+        color: black;
+    }
+
+    .submit-button {
+        font-size: 20px;
+        font-weight: 1000;
+        font-family: 'Courier New', Courier, monospace;
+        border: 2px solid rgb(83, 83, 83);
+        background-color: rgb(193, 193, 193);
+        width: 120px;
+        height: 40px; 
+        margin: 20px 12px 0px;
+        cursor: pointer;
+    }
+
+    .submit-button:active {
+        transform: scale(0.98);
+        box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+    }
+
+    .check-button-active {
+        background-color: greenyellow;
+    }
+
+    .status {
+        margin-top: 15px;
+        font-size: 30px;
+        font-weight: 1000;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .invalid {
+        color: red;
+    }
+
+    .valid {
+        color: rgb(95, 158, 0);
+    }
+
+    .text-nameInput {
+        margin-top: 20px;
+        font-size: 20px;
+        height: 35px;
+    }
+
+    .submitName-button {
+        width: auto;
+        background-color: #008CBA;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.home {
+    .body {
+        width: 1000px;
+        height: 200px;
+        background-color: rgb(84, 180, 244);
+        margin: 50px auto 0px;
+    }
+
+    .head {
+        width: 800px;
+        height: 200px;
+        padding: 75px 75px 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 1000;
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+        float: left;
+    }
+
+    .credit {
+        width: 200px;
+        height: 200px;
+        padding-right: 10px;
+        padding-top: 175px;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        float: right;
+        text-align: right;
+    }
+
+    .game-list {
+        margin: 30px auto 0;
+        width: 1000px;
+    }
+
+    .img {
+        width: 50%;
+        float: left;
+        padding-left: 100px;
+    }
+
+    img {
+        width: 200px;
+        padding: 10px;
+        border: 2px solid rgb(181, 181, 181);
+
+    }
+}

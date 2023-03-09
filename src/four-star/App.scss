@@ -1,0 +1,109 @@
+.four-star {
+    .board {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .active-bar {
+        width: 600px;
+        height: 50px;
+    }
+
+    .winner {
+        width: 50%;
+        height: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    .turn {
+        width: 50%;
+        height: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    .turn-text {
+        padding-top: 12px;
+        height: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        font-weight: 1000;
+        float: left;
+        margin-left: 50px;
+    }
+
+    .active-bar-green{
+        width:50px;
+        height:50px;
+        margin-right:100px;
+        border-radius: 100%;
+        background-color: green;
+        float: right;
+      
+    }
+
+    .active-bar-red{
+        width: 50px;
+        height: 50px;
+        margin-right:100px;
+        border-radius: 100%;
+        background-color: red;
+        float: right;
+    }
+    
+
+    .rectangle {
+      width: 600px;
+      height: 520px;
+      background-color: black;
+      margin-top: 20px;
+      padding: 10px;
+      border: solid;
+      border-radius: 20px;
+      border-color: rgb(168, 227, 255);
+      border-width: 10px;
+    }
+  
+    .cell {
+      width: 80px;
+      height: 80px;
+      float: left;
+      box-sizing: border-box;
+      border: 1px solid rgb(0, 0, 0);
+      user-select: none;
+      cursor: pointer;
+    }
+  
+    .white-token {
+      background: white;
+      border-radius: 100%;
+    }
+  
+    .green-token {
+      background: green;
+      border-radius: 100%;
+    }
+  
+    .red-token {
+      background: red;
+      border-radius: 100%;
+    }
+
+    .restart-button {
+        margin-top: 20px;
+        width: 100px;
+        height: 35px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000;
+    }
+
+    .victory-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 60px;
+        font-weight: 1000;
+        margin-top: 30px;
+    }
+  }
