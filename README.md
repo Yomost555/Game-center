@@ -1,5 +1,5 @@
-must run the server of game-center-backend before run this game center files.
-you can access and download the server file on https://github.com/Yomost555/Game-center-backend.
+must run the server of game-center-backend before run this game center files.\
+you can access and download the server files on https://github.com/Yomost555/Game-center-backend.
 
 
 # Getting Started with Create React App
