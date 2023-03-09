@@ -1,3 +1,7 @@
+must run the server of game-center-backend before run this game center files.
+you can access and download the server file on https://github.com/Yomost555/Game-center-backend.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
