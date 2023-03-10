@@ -1,4 +1,23 @@
-must run the server of game-center-backend before run this game center files.\
+This is the website of game center that consist of 2 games that are sudiku and fou star (connect four). the website has 3 pages which are home, sudoku and four star page. 
+- you can access the home page by only clicking the home menu on the header. 
+- you can access the sudoku and four-star page by clicking their menu on the header and their picture on the home page.
+
+on the sudoku page, it consists of 2 parts which is sudoku board and 5-button part. the 5 buttons are
+  1. submit button: press it when finishing the sudoku board, the website will show valid or invalid of the sent board. if it's valid, the website will show the box for filling your name for saving your name and time and then sending to back-end part.
+  2. restart button: press it for restarting the board (not to changing the pattern of initial board).
+  3. hint button: it will add the exact number of initial number/box of the initial board when clicking. It means you can complete it easier.
+  4. check button: it's realtime display when the button is activated (click again to deactivate). when it's activeted, it will show the green or red background on the boxes that have put number. the green means those boxed are right along with the sudoku conditions (it can turn to red if you put number on other boxes and they conflict with one another) and the red is otherwise.
+  5. reset button: it's similar to restart button but this button will change the initial board by getting new api from the server.
+  
+Moreover, I integrate with back-end server (download on https://github.com/Yomost555/Game-center-backend.). there are 2 data-base files for the sudoku which are 
+   1. list of full board and initial board of the sudoku.
+   2. list of name and time of the player who can complete sudoku challenge.
+and then I use the get request from the front-end website to get the data of the board. Plus, I use the put request to send the data of name and player to back-end part and storage them into the 2nd data-base file.
+
+
+
+Note:
+you must run the server of game-center-backend before run this game center files.\
 you can access and download the server files on https://github.com/Yomost555/Game-center-backend.
 
 
